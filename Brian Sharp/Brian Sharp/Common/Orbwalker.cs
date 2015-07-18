@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Linq;
 using LeagueSharp;
 using LeagueSharp.Common;
@@ -321,7 +321,7 @@ namespace BrianSharp.Common
                     {
                         fleeMenu.AddItem(
                             new MenuItem("OW_Flee_Key", "Key").SetValue(
-                                new KeyBind("C".ToCharArray()[0], KeyBindType.Press)));
+                                new KeyBind("G".ToCharArray()[0], KeyBindType.Press)));
                         modeMenu.AddSubMenu(fleeMenu);
                     }
                     owMenu.AddSubMenu(modeMenu);
